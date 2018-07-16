@@ -7,7 +7,7 @@
 </head>
  
 <body>
-<p>Link to Prog00 GitHub code:<a href="https://github.com/Devan-Jekel/cis355/tree/master/Prog00">https://github.com/Devan-Jekel/cis355/tree/master/Prog00</a></p>
+<p>Link to Prog00 GitHub code: <a href="https://github.com/Devan-Jekel/cis355/tree/master/Prog00">https://github.com/Devan-Jekel/cis355/tree/master/Prog00</a></p>
     <div class="container">
             <div class="row">
                 <h3>Customers</h3>
