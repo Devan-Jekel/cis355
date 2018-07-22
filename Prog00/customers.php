@@ -15,6 +15,7 @@
             <div class="row">
                 <p>
                     <a href="create.php" class="btn btn-success">Create</a>
+                    <a href="events.php" class="btn btn-danger">Events Table</a>
                 </p>
                  
                 <table class="table table-striped table-bordered">
@@ -53,4 +54,3 @@
     </div> <!-- /container -->
   </body>
 </html>
-        
