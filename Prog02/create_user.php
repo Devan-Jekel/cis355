@@ -85,10 +85,9 @@ if ( !empty($_POST)) { // if not first time through
 		$q = $pdo->prepare($sql);
 		$q->execute(array($email,$passwordhash));
 		$data = $q->fetch(PDO::FETCH_ASSOC);
-		
 		$_SESSION['id'] = $data['id'];
-		
 		Database::disconnect();
+        header("Location: login.php");
 	}
 }
 ?>
