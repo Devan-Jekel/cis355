@@ -1,18 +1,6 @@
 <?php 
-/* ---------------------------------------------------------------------------
- * filename    : fr_per_create2.php
- * author      : George Corser, gcorser@gmail.com
- * description : This program adds/inserts a new volunteer (table: fr_persons)
- * ---------------------------------------------------------------------------
- */
 session_start();
-// session_start();
-// if(!isset($_SESSION["fr_person_id"])){ // if "user" not set,
-	// session_destroy();
-	// header('Location: login.php');     // go to login page
-	// exit;
-// }
-	
+
 require 'database.php';
 if ( !empty($_POST)) { // if not first time through
 	// initialize user input validation variables
